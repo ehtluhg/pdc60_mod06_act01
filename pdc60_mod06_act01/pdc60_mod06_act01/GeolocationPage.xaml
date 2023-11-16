@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="pdc60_mod06_act01.GeolocationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Xamarin Essentials #4: Geolocation Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Geolocate" Clicked="Start_Locate"/>
+            <Button Text="Stop Geolocate" Clicked="Stop_Locate"/>
+
+            <Label x:Name="resultLocation"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

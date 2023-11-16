@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="pdc60_mod06_act01.ConnectivityPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Xamarin Essentials #2: Connectivity Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Check Connections" Clicked="Connectivity_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
